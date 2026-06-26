@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f8fc;
+}
+
+.navbar{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.banner{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+}
+
+.intro{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.intro h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.intro p{
+    max-width:900px;
+    margin:auto;
+    font-size:18px;
+}
+
+.section-title{
+    text-align:center;
+    color:#003366;
+    margin:20px 0;
+}
+
+.destinations{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+    text-align:center;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+}
+
+.card-content p{
+    margin-bottom:15px;
+}
+
+.card button{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.packages{
+    background:#eaf2ff;
+    padding:40px;
+    text-align:center;
+}
+
+.packages ul{
+    list-style:none;
+    line-height:2;
+    margin:20px 0;
+}
+
+.book-btn{
+    background:#003366;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:8px;
+}
+.dark{
+    background-color:black !important;
+    color:white;
+}
+
+.dark div{
+    background-color:#222 !important;
+    color:white;
+}
+
+.dark h2,
+.dark h3{
+    color:white !important;
+}
+.footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+
+    .banner{
+        height:250px;
+    }
+
+    .destinations{
+        grid-template-columns:1fr;
+    }
+}

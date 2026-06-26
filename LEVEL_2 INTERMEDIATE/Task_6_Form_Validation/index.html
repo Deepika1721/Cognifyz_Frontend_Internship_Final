@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore India - Booking Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌍 Explore India</h1>
+        <h2>Book Your Trip</h2>
+
+        <form onsubmit="return validateForm()">
+
+            <input type="text" id="name" placeholder="Enter Your Name">
+
+            <input type="email" id="email" placeholder="Enter Your Email">
+
+            <input type="number" id="people" placeholder="Number of Travelers">
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

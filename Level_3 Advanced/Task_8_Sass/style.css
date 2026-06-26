@@ -1,0 +1,26 @@
+body{
+    background:#f4f8fc;
+    font-family:Arial,sans-serif;
+}
+
+.container{
+    text-align:center;
+    margin-top:100px;
+}
+
+.container h1{
+    color:#003366;
+}
+
+.container p{
+    font-size:18px;
+}
+
+.container button{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+}

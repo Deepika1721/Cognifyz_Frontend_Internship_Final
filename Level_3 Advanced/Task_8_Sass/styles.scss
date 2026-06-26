@@ -1,0 +1,30 @@
+$primaryColor: #003366;
+$secondaryColor: #ff6600;
+$bgColor: #f4f8fc;
+
+body{
+    background: $bgColor;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+
+    h1{
+        color: $primaryColor;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    button{
+        background: $secondaryColor;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
