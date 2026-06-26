@@ -1,6 +1,10 @@
 # Cognifyz Frontend Development Internship
 
 Welcome to my Frontend Development Internship project repository.
+## 🌐 Live Demo
+
+**GitHub Pages:** https://deepika1721.github.io/Cognifyz_Frontend_Internship_Final/
+---
 
 ## 👩‍💻 Intern Details
 
